@@ -8,7 +8,7 @@ class Teacher {
     // this.#email = email;
     this.name = name;
     this.email = email;
-    this.#age = age;
+    this.age = age;
   }
 
   addTeacherName() {
