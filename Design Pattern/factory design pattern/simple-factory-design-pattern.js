@@ -2,7 +2,7 @@ class Burger {
   prepare() {}
 }
 
-class BasicBurge extends Burger {
+class BasicBurger extends Burger {
   prepare() {
     console.log("Basic Burger is prepare");
   }
@@ -22,7 +22,7 @@ class PremireBurger extends Burger {
 class BurgerFactory {
   create(type) {
     if (type === "basic") {
-      return new BasicBurge();
+      return new BasicBurger();
     } else if (type === "standrd") {
       return new StandardBurger();
     } else if (type === "premiure") {
